@@ -1,0 +1,52 @@
+# ==========================================
+# Banking Analytics - Git Ignore
+# ==========================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Python/Jupyter
+.ipynb_checkpoints/
+
+# Generated data
+*.csv
+*.tsv
+*.json
+*.parquet
+
+# SQL Server database files
+*.mdf
+*.ndf
+*.ldf
+*.bak
+*.trn
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Power BI temporary/backup files
+*.pbit
+~$*.pbix
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Local configuration / secrets
+.env
+.env.*
+*.secret
+secrets.*
